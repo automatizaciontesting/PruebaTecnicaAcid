@@ -11,7 +11,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         features="src/test/resources/features/Login.feature",
         glue = "com.automationacid.co.stepsdefinition",
         snippets = CAMELCASE,
-        tags = ""
+        tags = "@LoginConduitExitoso"
 )
 public class AppRunner {
 }

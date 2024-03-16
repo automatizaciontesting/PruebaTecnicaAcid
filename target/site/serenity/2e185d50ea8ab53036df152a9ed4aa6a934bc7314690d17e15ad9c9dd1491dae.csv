@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Realizar login aplicacion Acme demo","Validar inicio de sesion Conduit","SUCCESS","2023-06-04T16:35:07.562048-05:00[America/Bogota]","0.0","28.01"
-"Realizar login aplicacion Acme demo","Validar excepciones sin credenciales de logue","SUCCESS","2023-06-04T17:54:03.19497-05:00[America/Bogota]","0.0","22.38"
-"Realizar login aplicacion Acme demo","Validar datos invalidos de un usuario","SUCCESS","2023-06-04T18:33:31.32766-05:00[America/Bogota]","0.0","39.01"

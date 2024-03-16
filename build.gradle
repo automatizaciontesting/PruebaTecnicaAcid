@@ -1,5 +1,5 @@
 plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.7"
+    id "net.serenity-bdd.serenity-gradle-plugin" version "4.0.46"
     id 'java-library'
 }
 
@@ -8,8 +8,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+java {
+    sourceCompatibility = JavaVersion.VERSION_19
+    targetCompatibility = JavaVersion.VERSION_19
+}
 
 dependencies {
 
@@ -35,7 +37,7 @@ test {
 }
 
 wrapper {
-    gradleVersion = '8.1.1' //version required
+    gradleVersion = '8.6' //version required
 }
 
 gradle.startParameter.continueOnFailure = true
